@@ -5,6 +5,7 @@ interface FormSelectProps {
   options: { value: string; label: string }[];
   required?: boolean;
   error?: string;
+  disabled?: boolean;
 }
 
 export default function FormSelect({
