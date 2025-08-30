@@ -6,6 +6,7 @@ interface FormInputProps {
   onChange: (value: string) => void;
   required?: boolean;
   error?: string;
+  disabled?: boolean;
 }
 
 export default function FormInput({
